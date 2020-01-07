@@ -1,5 +1,4 @@
 import argparse
-parser = argparse.ArgumentParser()
 
 def popFlipPush(qu, pos):
     qa,qb = [],[]
