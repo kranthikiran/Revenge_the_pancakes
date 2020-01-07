@@ -18,7 +18,6 @@ def popFlipPush(qu, pos):
     return ''.join(qa)
 
 
-############ Main program #############
 def main():
 	parser = argparse.ArgumentParser()
 	parser.add_argument("--input_file", "-if", type=str, required=True)
@@ -31,7 +30,7 @@ def main():
 	out_put += 'T is %s' % T + '\n'
 	for t in range(T):
 	    S = str(lines[t+1]).strip()
-	    # Happy side And Not Good side
+	    # Happy side And bad side
 	    G = ''
 	    NG = ''
 	    for i in range(len(S.strip())):
